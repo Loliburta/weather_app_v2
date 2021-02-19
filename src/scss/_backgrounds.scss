@@ -1,0 +1,31 @@
+.app.normal {
+  background-image: url("../assets/backgrounds/normal.svg");
+}
+
+.app.night {
+  background-image: url("../assets/backgrounds/night.svg");
+}
+
+.app.warm {
+  background-image: url("../assets/backgrounds/warm.svg");
+}
+
+.app.hot {
+  background-image: url("../assets/backgrounds/hot.svg");
+}
+
+.desktop.normal {
+      background: linear-gradient(to bottom, #331677, #dc38f5);
+}
+
+.desktop.night {
+  background: linear-gradient(to bottom, #07193a, #599eb3);
+}
+
+.desktop.warm {
+  background: linear-gradient(to bottom, #221e74, #b89a68);
+}
+
+.desktop.hot {
+  background: linear-gradient(to bottom, #583e27, #c0a365);
+}

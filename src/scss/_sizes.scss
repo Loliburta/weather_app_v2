@@ -1,0 +1,152 @@
+@media screen and (min-width: 1700px) {
+  .app,
+  .app-filter,
+  .main {
+    width: 500px;
+    height: 950px;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1700px) and (min-width: 600px) {
+  .app,
+  .app-filter,
+  .main {
+    width: 500px;
+    height: 850px;
+  }
+
+  .forecast {
+    padding-top: 100px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 800px) and (min-width: 600px) {
+  .app,
+  .app-filter,
+  .main {
+    width: 500px;
+    height: 850px;
+    border-radius: 10px;
+  }
+
+  .forecast {
+    padding-top: 100px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .app {
+    border-radius: 10px;
+  }
+  .desktop {
+    background: linear-gradient(to bottom, #07193a, #1363e9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 100vh;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+  }
+}
+
+@media (max-width: 700px) {
+  .main {
+    min-height: 100vh;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  .app-filter {
+    border-radius: 0;
+  }
+}
+@media (max-width: 500px) {
+  .location {
+    font-size: 50px;
+  }
+  .date {
+    font-size: 19px;
+  }
+  .weather-condition {
+    font-size: 30px;
+  }
+  .main-forecast-info {
+    font-size: 20px;
+  }
+  .main-temp {
+    font-size: 85px;
+  }
+  .forecast {
+    padding-top: 100px;
+  }
+}
+@media (max-width: 370px) {
+  .location {
+    font-size: 45px;
+  }
+  .date {
+    font-size: 18px;
+  }
+  .weather {
+    padding: 0px 1px 0px 1px;
+    width: 100%;
+  }
+  .background-auto-size {
+    width: 100%;
+  }
+  .weather-condition {
+    font-size: 27px;
+  }
+  .main-forecast-info {
+    font-size: 18px;
+  }
+  .main-temp {
+    font-size: 75px;
+  }
+  .forecast {
+    padding-top: 100px;
+  }
+  .weather-icon {
+    width: 85px;
+  }
+  .forecast svg {
+    width: 60px;
+  }
+  .forecast-temps {
+    font-size: 16px;
+  }
+}
+@media (max-width: 305px) {
+  .location {
+    font-size: 38px;
+  }
+  .date {
+    font-size: 16px;
+  }
+  .weather {
+    padding: 0px 1px 0px 1px;
+    width: 100%;
+  }
+  .background-auto-size {
+    width: 100%;
+  }
+  .weather-condition {
+    font-size: 25px;
+  }
+  .main-forecast-info {
+    font-size: 15px;
+  }
+  .main-temp {
+    font-size: 65px;
+  }
+  .forecast {
+    padding-top: 90px;
+  }
+  .weather-icon {
+    width: 70px;
+  }
+  .forecast svg {
+    width: 50px;
+  }
+  .forecast-temps {
+    font-size: 14px;
+  }
+}
